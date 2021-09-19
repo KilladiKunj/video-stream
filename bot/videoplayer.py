@@ -81,11 +81,11 @@ async def startvideo(client, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="✨ ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/{Veez.GROUP_NAME}"),
+                        text="✨ ᴄʜᴀɴɴᴇʟ 1",
+                        url=f"https://t.me/CinemaCIub"),
                     InlineKeyboardButton(
-                        text="🌻 ᴄʜᴀɴɴᴇʟ",
-                        url=f"https://t.me/{Veez.CHANNEL_NAME}")
+                        text="🌻 ᴄʜᴀɴɴᴇʟ 2",
+                        url=f"https://t.me/unknown_leech_mirror")
                 ]
             ]
         )
@@ -140,7 +140,7 @@ async def startvideo(client, m: Message):
                     stream_type=StreamType().local_stream,
                 )
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/0faaa780ae861fb780814.png",
+                    photo="https://telegra.ph/file/ed6ff71a1060a570322a1.jpg",
                     reply_markup=keyboard,
                     caption=f"💡 **video streaming started!**\n\n🏷 **Name:** {title}\n⏱ **Duration:** `{convert_seconds(duration)} m`\n\n» **join to video chat on the top to watch the video.**")
                 return await msg.delete()
@@ -179,7 +179,7 @@ async def startvideo(client, m: Message):
                 stream_type=StreamType().local_stream,
             )
             await m.reply_photo(
-                photo="https://telegra.ph/file/bca4f149e798092846230.png",
+                photo="https://telegra.ph/file/104e6b94df7f3a40b0b5d.jpg",
                 reply_markup=keyboard,
                 caption=f"💡 **video streaming started !**\n\n» **join to video chat on the top to watch the video.**")
             return await msg.delete()
