@@ -20,7 +20,7 @@ async def cbguide(_, query: CallbackQuery):
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __Maintained by @Arun_TG__""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
@@ -46,12 +46,12 @@ async def cbstart(_, query: CallbackQuery):
                     "🌐 Terms & Condition", callback_data="cbinfo")
             ], [
                 InlineKeyboardButton(
-                    "💬 Group", url=f"https://t.me/{Veez.GROUP_NAME}"),
+                    "📣 Channel 1", url=f"https://t.me/CinemaCIub"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{Veez.CHANNEL_NAME}")
+                    "📣 Channel 2", url=f"https://t.me/unknown_leech_mirror")
             ], [
                 InlineKeyboardButton(
-                    "🧙🏻‍♂️ Owner", url=f"https://t.me/{Veez.OWNER_NAME}")
+                    "🧙🏻‍♂️ Owner", url=f"https://t.me/Arun_TG")
             ], [
                 InlineKeyboardButton(
                     "📚 All Command List", callback_data="cblist")
@@ -69,13 +69,7 @@ async def cbinfo(_, query: CallbackQuery):
 💡 __Powered by PyTgcalls the Async client API for the Telegram Group Calls, and Pyrogram the telegram MTProto API 
 Client Library and Framework in Pure Python for Users and Bots.__
 
-👨🏻‍💻 __Thanks to the developers who participated in the development of this bot, the list of devs can be seen below:__
 
-👩🏻‍✈️ » [Levina Shavila](https://github.com/levina-lab)
-🤵🏻 » [Sammy-XD](https://github.com/Sammy-XD)
-🤵🏻 » [Zxce3](https://github.com/Zxce3)
-🤵🏻 » [Tofik Denianto](https://github.com/tofikdn)
-🤵🏻 » [Shohih Abdul](https://github.com/DoellBarr)
 
 __This bot licensed under GNU-GPL 3.0 License__""",
         reply_markup=InlineKeyboardMarkup(
@@ -117,13 +111,13 @@ async def cblist(_, query: CallbackQuery):
 » /uptime - check bot uptime status
 » /sysinfo - check bot system information
 
-💡 SUDO ONLY:
+💡 Owner ONLY:
 
 » /rmd - remove all downloaded files
 » /rmw - remove all downloaded raw files
 » /leaveall - order assistant leave from all group
 
-⚡ __Maintained by Veez Project Team__""",
+⚡ __Maintained by @Arun_TG__""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
