@@ -21,7 +21,7 @@ async def cbguide(_, query: CallbackQuery):
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Maintained by @Arun_TG__""",
+⚡ __Powered by @Arun_TG__ ⚡""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
@@ -70,8 +70,6 @@ async def cbinfo(_, query: CallbackQuery):
 💡 __Powered by PyTgcalls the Async client API for the Telegram Group Calls, and Pyrogram the telegram MTProto API 
 Client Library and Framework in Pure Python for Users and Bots.__
 
-
-
 __This bot licensed under GNU-GPL 3.0 License__""",
         reply_markup=InlineKeyboardMarkup(
             [[
@@ -95,15 +93,8 @@ async def cblist(_, query: CallbackQuery):
 » /lyric (song name) - lyric scrapper
 » /vjoin - invite assistant join to your group
 » /vleave - order assistant leave from your group
+
    ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
-
-🎊 FUN CMD:
-
-» /asupan - check it by yourself
-» /chika - check it by yourself
-» /wibu - check it by yourself
-» /truth - check it by yourself
-» /dare - check it by yourself
 
 🔰 EXTRA CMD:
 
@@ -113,13 +104,13 @@ async def cblist(_, query: CallbackQuery):
 » /uptime - check bot uptime status
 » /sysinfo - check bot system information
 
-💡 Owner ONLY:
+💡 OWNER ONLY:
 
 » /rmd - remove all downloaded files
 » /rmw - remove all downloaded raw files
 » /leaveall - order assistant leave from all group
 
-⚡ __Maintained by @Arun_TG__""",
+⚡ __Powered by @Arun_TG__ ⚡""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
