@@ -11,7 +11,7 @@ from bot.videoplayer import app as USER
 from config import Veez
 
 
-@Client.on_message(command(["vjoin", f"vjoin@{Veez.BOT_USERNAME}"]) & ~filters.private & ~filters.bot)
+@Client.on_message(command(["join", f"join@{Veez.BOT_USERNAME}"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
 @errors
 async def entergroup(client, message):
@@ -47,7 +47,7 @@ async def entergroup(client, message):
     )
 
 
-@Client.on_message(command(["vleave", f"vleave@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["leave", f"leave@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def leavegroup(client, message):
     try:
