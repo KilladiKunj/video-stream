@@ -17,6 +17,7 @@ async def cbguide(_, query: CallbackQuery):
 4.) turn on the voice chat first before start to stream video.
 5.) type /vplay (reply to video) to start streaming.
 6.) type /vstop to end the video streaming.
+    ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
@@ -94,6 +95,7 @@ async def cblist(_, query: CallbackQuery):
 » /lyric (song name) - lyric scrapper
 » /vjoin - invite assistant join to your group
 » /vleave - order assistant leave from your group
+   ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
 
 🎊 FUN CMD:
 
