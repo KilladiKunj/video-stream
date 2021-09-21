@@ -9,19 +9,19 @@ from config import Veez
 @Client.on_callback_query(filters.regex("cbguide"))
 async def cbguide(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""❓ HOW TO USE THIS BOT:
+        f"""__❓ HOW TO USE THIS BOT:
 
 1.) first, add me to your group.
 2.) then promote me as admin and give all permissions except anonymous admin.
 3.) add @{Veez.ASSISTANT_NAME } to your group.
 4.) turn on the voice chat first before start to stream video.
 5.) type /vplay (reply to video) to start streaming.
-6.) type /vstop to end the video streaming.
+6.) type /vstop to end the video streaming.__
     ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
 
 📝 **note: stream & stop command can only be executed by group admin only!**
 
-⚡ __Powered by @Arun_TG__ ⚡""",
+**⚡ __Powered by @Arun_TG__ ⚡**""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
@@ -84,33 +84,33 @@ __This bot licensed under GNU-GPL 3.0 License__""",
 @Client.on_callback_query(filters.regex("cblist"))
 async def cblist(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""📚 All Command List:
+        f"""**📚 All Command List:**
 
-» /vplay (reply to video or yt/live url) - to stream video
+__» /vplay (reply to video or yt/live url) - to stream video
 » /vstop - stop the video streaming
 » /song (song name) - download song from YT
 » /vsong (video name) - download video from YT
 » /lyric (song name) - lyric scrapper
 » /vjoin - invite assistant join to your group
-» /vleave - order assistant leave from your group
+» /vleave - order assistant leave from your group__
 
    ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
 
-🔰 EXTRA CMD:
+**🔰 EXTRA CMD:**
 
-» /tts (reply to text) - text to speech
+__» /tts (reply to text) - text to speech
 » /alive - check bot alive status
 » /ping - check bot ping status
 » /uptime - check bot uptime status
-» /sysinfo - check bot system information
+» /sysinfo - check bot system information__
 
-💡 OWNER ONLY:
+**💡 OWNER ONLY:**
 
-» /rmd - remove all downloaded files
+__» /rmd - remove all downloaded files
 » /rmw - remove all downloaded raw files
-» /leaveall - order assistant leave from all group
+» /leaveall - order assistant leave from all group__
 
-⚡ __Powered by @Arun_TG__ ⚡""",
+**⚡ __Powered by @Arun_TG__ ⚡**""",
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
