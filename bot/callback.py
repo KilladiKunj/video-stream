@@ -98,7 +98,7 @@ __➪ /play (reply to video or yt/live url) - to stream video
 
 **🔰 EXTRA CMD:**
 
-__» /tts (reply to text) - text to speech
+__➪ /tts (reply to text) - text to speech
 ➪ /alive - check bot alive status
 ➪ /ping - check bot ping status
 ➪ /uptime - check bot uptime status
