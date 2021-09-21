@@ -86,29 +86,29 @@ async def cblist(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**📚 All Command List:**
 
-__» /play (reply to video or yt/live url) - to stream video
-» /stop - stop the video streaming
-» /song (song name) - download song from YT
-» /vsong (video name) - download video from YT
-» /lyric (song name) - lyric scrapper
-» /join - invite assistant join to your group
-» /leave - order assistant leave from your group__
+__➪ /play (reply to video or yt/live url) - to stream video
+➪ /stop - stop the video streaming
+➪ /song (song name) - download song from YT
+➪ /vsong (video name) - download video from YT
+➪ /lyric (song name) - lyric scrapper
+➪ /join - invite assistant join to your group
+➪ /leave - order assistant leave from your group__
 
    ⚠️𝗖𝗮𝗻'𝘁 𝗣𝗹𝗮𝘆 𝗙𝗶𝗹𝗲𝘀 𝗠𝗼𝗿𝗲 𝗧𝗵𝗮𝗻 20 𝗺𝗶𝗻𝘂𝘁𝗲𝘀⚠️
 
 **🔰 EXTRA CMD:**
 
 __» /tts (reply to text) - text to speech
-» /alive - check bot alive status
-» /ping - check bot ping status
-» /uptime - check bot uptime status
-» /sysinfo - check bot system information__
+➪ /alive - check bot alive status
+➪ /ping - check bot ping status
+➪ /uptime - check bot uptime status
+➪ /sysinfo - check bot system information__
 
 **💡 OWNER ONLY:**
 
-__» /rmd - remove all downloaded files
-» /rmw - remove all downloaded raw files
-» /leaveall - order assistant leave from all group__
+__➪ /rmd - remove all downloaded files
+➪ /rmw - remove all downloaded raw files
+➪ /leaveall - order assistant leave from all group__
 
 **⚡ __Powered by @Arun_TG__ ⚡**""",
         reply_markup=InlineKeyboardMarkup(
